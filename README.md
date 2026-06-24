@@ -1,5 +1,9 @@
 # Test Quad DebugConfig Library
 
+## Explain It Simply
+
+This module is the print switch. When `VERBOSE_ON` is 1, the drone talks on Serial for debugging. When it is 0, most prints are turned off so the flight loop stays quiet and steady.
+
 `DebugConfig` centralizes build-time logging control. Build with `-DVERBOSE_ON=0` to remove normal debug prints while preserving WiFi telemetry needed for calibration.
 
 ## Pin Map
